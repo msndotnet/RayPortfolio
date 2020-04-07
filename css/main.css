@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:500|Source+Sans+Pro:600,700&display=swap&subset=cyrillic');
+
+html{
+    background-color: #F5F5F7;
+}
+
+html p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+.logo {
+  display: flex;
+}
+
+.navigation {
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  width: 18rem;
+  overflow: auto;
+}
+
+.navigation> a {
+  display: block;
+  color: #242323;
+  padding: 16px;
+  text-decoration: none;
+  background-color: #ffbc42;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  animation-duration: 0.2s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.navigation> a:hover {
+  color: #E84A5F;
+  text-decoration: underline;
+}
+
+/* The sidebar menu */
+.side-nav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 14rem;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #ffbc42;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-logo a >img {
+  object-fit: scale-down;
+  width: 20%;
+  height: 100%;
+}
+
+.logo-heading-container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0rem;
+  padding: 0rem;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight:700;
+color: #242323;
+}
+
+.top-nav, .bottom-nav {
+  height: 50%;
+}
+
+/*https://marina-ferreira.github.io/tutorials/css/flexbox/*/
+.bottom-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* The navigation menu links */
+.nav-button {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+.nav-button >a {
+    font-size: 1.3rem;
+  font-family: 'Source Sans Pro', sans-serif;
+    color: #242323;
+}
+
+/* Style page content */
+.main {
+  margin-left: 20rem;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.social-media-buttons {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.social-media-buttons>img {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.logo-heading-container {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-content: space-between;
+  align-self: center;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.top-content h1, h2 {
+  margin: 0rem;
+  padding: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 5rem;
+font-family: 'Raleway', sans-serif;
+}
+
+.scroll-content {
+  margin-left: 15rem;
+  display: block;
+}
+
+.bodyWrapper {
+max-width: 1024px;
+  margin: 0 auto;
+}
+
+#titleMargin {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+#mainContentImage {
+  width: 5rem;
+  height: 5rem;
+  margin: 0rem;
+  margin-bottom: 10rem;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  height: 540px;
+  width:1024px;
+}
+
+.bottom-content-auto-height {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 1024px;
+}
+
+.left-column, .center-column, .right-column{
+margin-top: 1.5rem;
+padding-top: 2rem;
+}
+
+.left-column {
+  width: 38%;
+  max-width: 30rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  padding-left: 0.3rem;
+  /*background-color: #91c499;*/
+}
+
+.left-column h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.title-box p {
+  padding-left: 2rem;
+}
+
+.title-box h2 {
+color:  #E84A5F;
+font-size: 2.5rem;
+
+line-height: 3.5rem;
+}
+
+.center-column {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: auto;
+  width: 10%;
+  z-index: 4;
+}
+
+.right-column h2 {
+  margin: 0rem;
+  padding: 0rem;
+  font-size:  5rem;
+}
+
+/*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+#back-to-top-button-reg {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+
+  bottom: 20px; /* Place the button at the bottom of the page */
+
+  right: 30px; /* Place the button 30px from the right */
+
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #ffbc42;
+  /* Set a background color */
+  color: #242323;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  font-size: 1rem;
+  /* Increase font size */
+  width: 8rem;
+
+  font-family: 'source sans pro', sans-serif;
+
+}
+
+#back-to-top-button-reg:hover {
+  color: #E84A5F;
+  /* Add a dark-grey background on hover */
+}
+
+.bigTitle-centered{
+  display:block;
+  text-align: center;
+  font-family: 'source sans pro', sans-serif;
+}
+
+.bigTitle-centered h1{
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #E84A5F;
+}
+
+.bigTitle-centered h2{
+  font-weight: 700;
+  font-size: 3rem;
+  color: #E84A5F;
+  margin-top: 15rem;
+}
+
+.center-paragraph{
+text-align: center;
+margin:auto;
+width: 62%;
+margin-top: 0rem;
+padding-top:0rem;
+font-weight: 400;
+}
+
+.center-paragraph p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.2rem;
+    font-family: 'source sans pro', sans-serif;
+}
+
+.center{
+  display: block;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  height:auto;
+}
+
+.center-column-paragraph{
+  width: 40%;
+  max-width: 30rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  padding-left: 0.3rem;
+}
+
+.center-column-paragraph h2{
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.center-column-paragraph p{
+line-height: auto;
+padding-top: 0.5rem;
+padding-bottom:0.5rem;
+}
+
+.multi-content-column {
+  width: 45%;
+  max-width: 30rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  padding-left: 0.3rem;
+  /*background-color: #91c499;*/
+ justify-content:  flex-end;
+}
+
+#marginBottom5rem{
+  margin-bottom: 5rem;
+}
+
+#marginTop5rem{
+  margin-top: 5rem;
+}
+
+#marginTop3rem{
+  margin-top: 3rem;
+}
+
+
+
+#displayFlexColumn{
+  flex-direction: column;
+}
+
+#noTopMargin{
+  margin-top: 0rem;
+}
+
+#paragraphAdjustment3Rem{
+  padding-bottom: 3rem;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------  */
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 768px) {
+  .side-nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .top-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .side-nav a {
+    float: left;
+  }
+
+  .navigation {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.nav-logo{
+  display:flex;
+  justify-content: flex-start;
+}
+
+  .nav-logo a>img{
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .nav-logo a {
+    padding-left: 2.5rem;
+display: inline-block;
+width: 3rem;
+}
+
+.logo-heading-container >h1 {
+    text-align: left;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.logo-heading-container >h1, .logo-heading-container > a{
+display:flex;
+float: none;
+
+}
+
+.logo-heading-container {
+    display: flex;
+      margin: 0rem;
+      padding: 0rem;
+      margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
+    padding-left: 1rem;
+    align-content: space-between;
+}
+
+.social-media-buttons {
+    display: block;
+    margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    justify-content: flex-end;
+    position:absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.social-media-buttons img {
+  width: 2rem;
+      height: 2rem;
+}
+
+  .navigation a {
+    display: block;
+    font-size: 1.25rem;
+    padding: 16px;
+  }
+
+  div.scroll-content {
+    margin-left: 0;
+  }
+
+  .bodyWrapper {
+  max-width: 768px;
+    margin: 0 auto;
+  }
+
+  #titleMargin {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  #mainContentImage {
+    width: 5rem;
+    height: 5rem;
+    margin: 0rem;
+    margin-bottom: 10rem;
+  }
+
+  .bottom-content {
+    display: flex;
+    flex-direction: row;
+    height: 540px;
+    width: 768px;
+  }
+
+  .bottom-content-auto-height {
+    width: 100%;
+
+  }
+
+  .left-column {
+    padding-left: 2rem;
+    /*background-color: #91c499;*/
+  }
+
+  .right-column h2{
+  font-size: 3rem;
+  }
+
+  .center{
+    width: 80%;
+  }
+
+  .multi-content-column {
+padding-left: 2rem;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .side-nav a {
+    text-align: center;
+    float: none;
+  }
+}

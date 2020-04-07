@@ -1,0 +1,244 @@
+#font-heading-demo-3halfrem {
+  font-size: 2.5rem;
+font-family: 'Raleway', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#font-heading-demo-3rem {
+  font-size: 2rem;
+font-family: 'Raleway', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#font-heading-demo-2halfrem {
+  font-size: 1.5rem;
+font-family: 'Raleway', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#font-heading-demo-2rem {
+  font-size: 1rem;
+font-family: 'Raleway', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#font-body-demo-3halfrem {
+  font-size: 2.5rem;
+font-family: 'Source Sans Pro', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#font-body-demo-3rem {
+  font-size: 2rem;
+font-family: 'Source Sans Pro', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#font-body-demo-2halfrem {
+  font-size: 1.5rem;
+font-family: 'Source Sans Pro', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#font-body-demo-2rem {
+  font-size: 1rem;
+font-family: 'Source Sans Pro', sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 2rem;
+}
+
+#spacing-paddings-margins {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  min-width: 5rem;
+  margin-bottom: 2rem;
+}
+
+#spacing-paddings {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0rem;
+  min-width: 5rem;
+}
+
+#justify-content-flexstart {
+  justify-content: flex-start;
+}
+
+.block {
+  min-width: 5rem;
+  max-width: 20rem;
+  height: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 05rem;
+}
+
+/*w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow2*/
+#primary-color{
+  background-color: #91c499;
+  border: 1px solid;
+  padding: 8px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#secondary-color1 {
+  background-color: #ffbc42;
+  border: 1px solid;
+  padding: 8px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#secondary-color2 {
+  background-color: #E84A5F;
+  border: 1px solid;
+  padding: 8px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#complementry-color {
+  background-color: #242323;
+  border: 1px solid;
+  padding: 8px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+#background-color {
+  background-color: #F5F5F7;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  border: 1px solid;
+  padding: 8px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+
+#button-style >a:link, #button-style> a:visited {
+  background-color: #595959;
+  color: #f2e9dc;
+  padding: 1rem;
+  width:15rem;
+  height:1rem;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'source sans pro', sans-serif;
+  margin-bottom: 2rem;
+}
+
+#button-style >a:hover,#button-style> a:active {
+  background-color: #808F85;
+}
+
+#inline-text-style {
+  margin-bottom: 2rem;
+}
+
+#inline-text-style >a:link, #inline-text-style >a:visited{
+  color: #595959;
+  font-family: 'source sans pro', sans-serif;
+}
+
+
+/*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+#back-to-top-button {
+  display: none; /* Hidden by default */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #cfd11a; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 1rem; /* Increase font size */
+  width: 8rem;
+  margin-bottom: 2rem;
+    font-family: 'source sans pro', sans-serif;
+}
+
+#back-to-top-button:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#no-justify-center-column{
+  justify-content: flex-start;
+ padding-top: 2rem;
+ padding-right: 1rem;
+ padding-left: 1rem;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1 */
+.animated-button {
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1rem;
+  padding: 15px;
+  width: 8rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 2rem;
+    font-family: 'source sans pro', sans-serif;
+}
+
+/*In-line tag element*/
+.animated-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animated-button:hover span {
+  padding-right: 25px;
+}
+
+/*The arrow that appears after */
+/*:after is a pseudo code that adds something new after whichever text you've added*/
+.animated-button span:after {
+content: ' \00BB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+/*hover over and it should show opacity*/
+.animated-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#img-logo{
+  width: 25%;
+  max-height: 10rem;
+  object-fit: contain;
+  margin: 0rem;
+  padding: 0rem;
+  height: auto;
+}
+
+#styleguideHeading h1 {
+  padding-left:  1rem;
+  color: #E84A5F;
+
+}

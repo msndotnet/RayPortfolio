@@ -1,0 +1,128 @@
+#rayho-image-center {
+  width: 65%;
+  height: auto;
+  object-fit: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  right:3rem;
+}
+
+#reg-image-center {
+  width: 25rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+#about-me-div {
+  flex-direction: row;
+  padding-top: 0rem;
+}
+
+
+#margin-fix {
+  margin-top: 0rem;
+  padding-top: 0rem;
+}
+
+
+#offlineApproachSizeImageCenter{
+  margin-bottom: 1rem;
+    margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  position: relative;
+  align-self: flex-end;
+}
+
+#finishedProductCenterImage{
+  margin-bottom: 5rem;
+    margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  position: relative;
+  align-self: flex-end;
+}
+
+
+#see-process-link > a{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #b3544c;
+}
+
+#see-process-link > a:hover{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #923464;
+}
+
+#header1{
+align-self: center;
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#header1 h2{
+  margin-top: 0.2rem;
+  font-size: 2rem;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 600;
+  color: #E84A5F;
+}
+
+#subheading{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-kerning: 10rem;
+}
+
+
+#center-column-mod1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: auto;
+    width: 10%;
+    z-index: 4;
+}
+
+#websiteMappingResize{
+  object-fit: scale-down;
+  width: 100%;
+  height: auto;
+ align-self: flex-start;
+ margin-bottom: 2rem;
+}
+
+#websitePieChartResize{
+  object-fit: scale-down;
+  width: 55%;
+  height: auto;
+ align-self: flex-start;
+margin: 0rem;
+padding: 0rem;
+}
+
+#paragraphAdjustment{
+  padding-bottom:1.6rem;
+}
+
+#justifyContentFlexStart{
+  justify-content: flex-start;
+}
+
+#nomargin{
+      margin: 0rem;
+}
+
+#grayboxPhotoResize{
+  object-fit: contain;
+  width: 95%;
+  height: auto;
+  align-self: flex-start;
+ margin-bottom: 2rem;
+}

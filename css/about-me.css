@@ -1,0 +1,225 @@
+#rayho-image-center {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  left: 5rem;
+}
+
+#reg-image-center {
+  width: 25rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+#about-me-div {
+  flex-direction: row;
+  padding-top: 0rem;
+  width: 40%;
+}
+
+#night_photo_001 {
+  z-index: 2;
+  object-fit: contain;
+  width: 45%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+  position: relative;
+  left: 12.2rem;
+  bottom: 24rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#night_photo_002 {
+  z-index: 2;
+  object-fit: contain;
+  width: 40%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+  position: relative;
+  bottom: 0rem;
+  right: 2rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#margin-fix {
+  margin-top: 0rem;
+  padding-top: 0rem;
+}
+
+#vancouver-image-center {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  right: 5rem;
+}
+
+#vancouver_photo_002 {
+  z-index: 2;
+  object-fit: contain;
+  width: 50%;
+  height: auto;
+  align-self: flex-end;
+  position: relative;
+  left: 10rem;
+  bottom: 2rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#vancouver_photo_003 {
+  z-index: 2;
+  object-fit: scale-down;
+  width: 20%;
+  height: auto;
+  align-self: flex-end;
+  position: relative;
+  bottom: 2rem;
+  right: 15rem;
+}
+
+#see-process-link>a {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #b3544c;
+}
+
+#see-process-link>a:hover {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #923464;
+}
+
+#header1 {
+  align-self: center;
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#header1 h2 {
+  margin-top: 0.2rem;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #E84A5F;
+}
+
+#header2 {
+  margin-top: 1rem;
+}
+
+#header2 h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #E84A5F;
+  margin-bottom: 1rem;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.connect-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-links>a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #242323;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0rem;
+  margin-bottom: 1rem;
+}
+
+.connect-links>a:hover {
+  text-decoration: underline;
+  color: #91c499;
+}
+
+.connect-links>a:hover:before {
+  content: "+";
+  color: #E84A5F;
+}
+
+#contactMe {
+  color: #E84A5F;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#customWidth60 {
+  width: 60%;
+  padding-top: 0.5rem;
+}
+
+#customWidth40 {
+  width: 40%;
+}
+
+#aboutMeSubtitleCustom {
+  color: #E84A5F;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  #about-me-div {
+    flex-direction: column;
+  }
+
+  #night_photo_001 {
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+    position: static;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #rayho-image-center {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: static;
+  }
+
+  #night_photo_002 {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-top: 0.5rem;
+    align-self: flex-start;
+    position: static;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  }
+}

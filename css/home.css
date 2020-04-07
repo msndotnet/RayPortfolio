@@ -1,0 +1,204 @@
+#rayho-image-center {
+  width: 65%;
+  height: auto;
+  object-fit: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  right:3rem;
+}
+
+#reg-image-center {
+  width: 25rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+#about-me-div {
+  flex-direction: row;
+  padding-top: 0rem;
+}
+
+#night_photo_001 {
+  z-index: 3;
+  object-fit: contain;
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+  position: relative;
+  left: 8rem;
+  bottom: 2rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#night_photo_002 {
+  z-index: 2;
+  object-fit: scale-down;
+  width: 30%;
+  max-width: 40%;
+  height: auto;
+  align-self: flex-end;
+  position: relative;
+  right: 12rem;
+  bottom: 2.5rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#margin-fix {
+  margin-top: 0rem;
+  padding-top: 0rem;
+}
+
+#vancouver-image-center {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  right: 5rem;
+}
+
+#vancouver_photo_002 {
+  z-index: 2;
+  object-fit: contain;
+  width: 50%;
+  height: auto;
+  align-self: flex-end;
+  position: relative;
+  left: 10rem;
+  bottom: 2rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#vancouver_photo_003 {
+  z-index: 2;
+  object-fit: scale-down;
+  width: 20%;
+  height: auto;
+  align-self: flex-end;
+  position: relative;
+  bottom: 2rem;
+  right: 15rem;
+}
+
+#bike-bolt-image-center {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  position: relative;
+  align-self: flex-end;
+}
+
+
+#see-process-link > a{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #b3544c;
+}
+
+#see-process-link > a:hover{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color: #923464;
+}
+
+#header1{
+align-self: center;
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#header1 h2{
+  margin-top: 0.2rem;
+  font-size: 2rem;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 600;
+  color: #E84A5F;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive*/
+.photo-grid-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-bottom: 2rem;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.title-box {
+  display: block;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.title-box h2 {
+font-family: 'Source Sans Pro', sans-serif;
+  margin: 0rem;
+  color: #E84A5F;
+  font-weight: 600;
+}
+
+.home-page-image{
+  margin-top: 2rem;
+  width: 100%;
+height: auto;
+  object-fit: contain;
+  position: relative;
+}
+
+#no-paddings-right{
+padding-right: 0rem;
+width: 50%;
+}
+
+#centerColumnImage{
+  object-fit: contain;
+}
+
+#contentWidth50{
+  width: 50%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------  */
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 768px) {
+  .title-box {
+    display: block;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+
+  .title-box h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+    margin: 0rem;
+    color: #E84A5F;
+    font-weight: 600;
+  }
+
+
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+
+}
