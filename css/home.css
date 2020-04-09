@@ -57,7 +57,6 @@
   height: auto;
   object-fit: contain;
   position: relative;
-  right: 5rem;
 }
 
 #vancouver_photo_002 {
@@ -163,20 +162,14 @@ font-family: 'Source Sans Pro', sans-serif;
   height: auto;
 }
 
-#no-paddings-right{
-padding-right: 0rem;
-width: 50%;
-}
 
 #centerColumnImage{
   object-fit: contain;
 }
 
-#contentWidth50{
-  width: 50%;
-}
-
 /*-----------------------------------------------------------------------------------------------------------------------------  */
+
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 768px) {

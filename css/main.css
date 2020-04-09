@@ -165,7 +165,7 @@ body {
 }
 
 .bodyWrapper {
-  max-width: 1024px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -206,7 +206,7 @@ body {
   flex-direction: column;
   padding-right: 2rem;
   padding-left: 0.3rem;
-  /*background-color: #91c499;*/
+justify-content: center;
 }
 
 .left-column h2 {
@@ -222,6 +222,12 @@ body {
   color: #E84A5F;
   font-size: 2.5rem;
   line-height: 3.5rem;
+}
+
+.graphic-title h2{
+  color: #E84A5F;
+  font-size: 5.5rem;
+  line-height: 6rem;
 }
 
 .center-column {
@@ -384,9 +390,24 @@ body {
   padding-bottom: 3rem;
 }
 
+#contentWidth70{
+width: 70%;
+}
+#no-paddings-right{
+padding-right: 0rem;
+width: 50%;
+}
+
+#contentWidth50{
+  width: 50%;
+}
+
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------  */
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 768px) {
+
+@media  screen and (max-width: 768px) {
   .side-nav {
     width: 100%;
     height: auto;
@@ -478,11 +499,6 @@ body {
     margin-left: 0;
   }
 
-  .bodyWrapper {
-    max-width: 768px;
-    margin: 0 auto;
-  }
-
   #titleMargin {
     margin-top: 0rem;
     margin-bottom: 1rem;
@@ -509,7 +525,6 @@ body {
 
   .left-column {
     padding-left: 2rem;
-    /*background-color: #91c499;*/
   }
 
   .right-column h2 {
@@ -526,9 +541,20 @@ body {
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
+@media  screen and (max-width: 400px) {
   .side-nav a {
     text-align: center;
     float: none;
+  }
+}
+
+@media screen and (max-width: 2560px){
+
+  #no-paddings-right{
+  width: 40%;
+  }
+
+  #contentWidth50{
+    width: 60%;
   }
 }
