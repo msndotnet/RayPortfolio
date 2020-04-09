@@ -5,8 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:500|Source+Sans+Pro:600,700&display=swap&subset=cyrillic');
 
-html{
-    background-color: #F5F5F7;
+html {
+  background-color: #F5F5F7;
 }
 
 html p {
@@ -31,7 +31,7 @@ body {
   overflow: auto;
 }
 
-.navigation> a {
+.navigation>a {
   display: block;
   color: #242323;
   padding: 16px;
@@ -43,7 +43,7 @@ body {
 }
 
 /* When you mouse over the navigation links, change their color */
-.navigation> a:hover {
+.navigation>a:hover {
   color: #E84A5F;
   text-decoration: underline;
 }
@@ -75,7 +75,7 @@ body {
   align-items: center;
 }
 
-.nav-logo a >img {
+.nav-logo a>img {
   object-fit: scale-down;
   width: 20%;
   height: 100%;
@@ -86,9 +86,9 @@ body {
   text-align: center;
   margin: 0rem;
   padding: 0rem;
-font-family: 'Source Sans Pro', sans-serif;
-font-weight:700;
-color: #242323;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #242323;
 }
 
 .top-nav, .bottom-nav {
@@ -110,10 +110,11 @@ color: #242323;
   padding-right: 1rem;
   text-decoration: none;
 }
-.nav-button >a {
-    font-size: 1.3rem;
+
+.nav-button>a {
+  font-size: 1.3rem;
   font-family: 'Source Sans Pro', sans-serif;
-    color: #242323;
+  color: #242323;
 }
 
 /* Style page content */
@@ -155,7 +156,7 @@ color: #242323;
   margin-top: 0rem;
   margin-bottom: 0rem;
   font-size: 5rem;
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .scroll-content {
@@ -164,7 +165,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .bodyWrapper {
-max-width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -182,9 +183,8 @@ max-width: 1024px;
 
 .bottom-content {
   display: flex;
-  flex-direction: row;
-  height: 540px;
-  width:1024px;
+  width: 100%;
+  height: auto;
 }
 
 .bottom-content-auto-height {
@@ -194,16 +194,15 @@ max-width: 1024px;
   width: 1024px;
 }
 
-.left-column, .center-column, .right-column{
-margin-top: 1.5rem;
-padding-top: 2rem;
+.left-column, .center-column, .right-column {
+  margin-top: 1.5rem;
+  padding-top: 2rem;
 }
 
 .left-column {
-  width: 38%;
-  max-width: 30rem;
-  line-height: 1.6rem;
   display: flex;
+  width: 38%;
+  line-height: 1.6rem;
   flex-direction: column;
   padding-right: 2rem;
   padding-left: 0.3rem;
@@ -220,10 +219,9 @@ padding-top: 2rem;
 }
 
 .title-box h2 {
-color:  #E84A5F;
-font-size: 2.5rem;
-
-line-height: 3.5rem;
+  color: #E84A5F;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
 }
 
 .center-column {
@@ -245,7 +243,7 @@ line-height: 3.5rem;
 .right-column h2 {
   margin: 0rem;
   padding: 0rem;
-  font-size:  5rem;
+  font-size: 5rem;
 }
 
 /*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
@@ -253,11 +251,10 @@ line-height: 3.5rem;
   display: none;
   /* Hidden by default */
   position: fixed;
-
-  bottom: 20px; /* Place the button at the bottom of the page */
-
-  right: 30px; /* Place the button 30px from the right */
-
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
   z-index: 99;
   /* Make sure it does not overlap */
   border: none;
@@ -275,9 +272,7 @@ line-height: 3.5rem;
   font-size: 1rem;
   /* Increase font size */
   width: 8rem;
-
   font-family: 'source sans pro', sans-serif;
-
 }
 
 #back-to-top-button-reg:hover {
@@ -285,54 +280,54 @@ line-height: 3.5rem;
   /* Add a dark-grey background on hover */
 }
 
-.bigTitle-centered{
-  display:block;
+.bigTitle-centered {
+  display: block;
   text-align: center;
   font-family: 'source sans pro', sans-serif;
 }
 
-.bigTitle-centered h1{
+.bigTitle-centered h1 {
   font-weight: 800;
   font-size: 3.5rem;
   color: #E84A5F;
 }
 
-.bigTitle-centered h2{
+.bigTitle-centered h2 {
   font-weight: 700;
   font-size: 3rem;
   color: #E84A5F;
   margin-top: 15rem;
 }
 
-.center-paragraph{
-text-align: center;
-margin:auto;
-width: 62%;
-margin-top: 0rem;
-padding-top:0rem;
-font-weight: 400;
+.center-paragraph {
+  text-align: center;
+  margin: auto;
+  width: 62%;
+  margin-top: 0rem;
+  padding-top: 0rem;
+  font-weight: 400;
 }
 
-.center-paragraph p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 1.2rem;
-    font-family: 'source sans pro', sans-serif;
+.center-paragraph p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.2rem;
+  font-family: 'source sans pro', sans-serif;
 }
 
-.center{
+.center {
   display: block;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
   width: 50rem;
-  height:auto;
+  height: auto;
 }
 
-.center-column-paragraph{
+.center-column-paragraph {
   width: 40%;
   max-width: 30rem;
   line-height: 1.6rem;
@@ -342,15 +337,15 @@ font-weight: 400;
   padding-left: 0.3rem;
 }
 
-.center-column-paragraph h2{
+.center-column-paragraph h2 {
   font-size: 2rem;
   margin-top: 2rem;
 }
 
-.center-column-paragraph p{
-line-height: auto;
-padding-top: 0.5rem;
-padding-bottom:0.5rem;
+.center-column-paragraph p {
+  line-height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .multi-content-column {
@@ -362,37 +357,34 @@ padding-bottom:0.5rem;
   padding-right: 2rem;
   padding-left: 0.3rem;
   /*background-color: #91c499;*/
- justify-content:  flex-end;
+  justify-content: flex-end;
 }
 
-#marginBottom5rem{
+#marginBottom5rem {
   margin-bottom: 5rem;
 }
 
-#marginTop5rem{
+#marginTop5rem {
   margin-top: 5rem;
 }
 
-#marginTop3rem{
+#marginTop3rem {
   margin-top: 3rem;
 }
 
-
-
-#displayFlexColumn{
+#displayFlexColumn {
   flex-direction: column;
 }
 
-#noTopMargin{
+#noTopMargin {
   margin-top: 0rem;
 }
 
-#paragraphAdjustment3Rem{
+#paragraphAdjustment3Rem {
   padding-bottom: 3rem;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------  */
-
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 768px) {
   .side-nav {
@@ -401,7 +393,7 @@ padding-bottom:0.5rem;
     position: relative;
   }
 
-  .top-nav{
+  .top-nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -422,60 +414,59 @@ padding-bottom:0.5rem;
     justify-content: space-around;
   }
 
-.nav-logo{
-  display:flex;
-  justify-content: flex-start;
-}
+  .nav-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
 
-  .nav-logo a>img{
+  .nav-logo a>img {
     width: 100%;
     object-fit: contain;
   }
 
   .nav-logo a {
     padding-left: 2.5rem;
-display: inline-block;
-width: 3rem;
-}
+    display: inline-block;
+    width: 3rem;
+  }
 
-.logo-heading-container >h1 {
+  .logo-heading-container>h1 {
     text-align: left;
     margin: 0rem;
     padding: 0rem;
-}
+  }
 
-.logo-heading-container >h1, .logo-heading-container > a{
-display:flex;
-float: none;
-
-}
-
-.logo-heading-container {
+  .logo-heading-container>h1, .logo-heading-container>a {
     display: flex;
-      margin: 0rem;
-      padding: 0rem;
-      margin-block-start: 0rem;
+    float: none;
+  }
+
+  .logo-heading-container {
+    display: flex;
+    margin: 0rem;
+    padding: 0rem;
+    margin-block-start: 0rem;
     margin-block-end: 0rem;
     margin-inline-start: 0rem;
     margin-inline-end: 0rem;
     padding-left: 1rem;
     align-content: space-between;
-}
+  }
 
-.social-media-buttons {
+  .social-media-buttons {
     display: block;
     margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     justify-content: flex-end;
-    position:absolute;
+    position: absolute;
     top: 2rem;
     right: 2rem;
-}
+  }
 
-.social-media-buttons img {
-  width: 2rem;
-      height: 2rem;
-}
+  .social-media-buttons img {
+    width: 2rem;
+    height: 2rem;
+  }
 
   .navigation a {
     display: block;
@@ -488,7 +479,7 @@ float: none;
   }
 
   .bodyWrapper {
-  max-width: 768px;
+    max-width: 768px;
     margin: 0 auto;
   }
 
@@ -507,13 +498,13 @@ float: none;
   .bottom-content {
     display: flex;
     flex-direction: row;
-    height: 540px;
-    width: 768px;
+    width: 100%;
+    height: auto;
   }
 
   .bottom-content-auto-height {
     width: 100%;
-
+    height: auto;
   }
 
   .left-column {
@@ -521,16 +512,16 @@ float: none;
     /*background-color: #91c499;*/
   }
 
-  .right-column h2{
-  font-size: 3rem;
+  .right-column h2 {
+    font-size: 3rem;
   }
 
-  .center{
+  .center {
     width: 80%;
   }
 
   .multi-content-column {
-padding-left: 2rem;
+    padding-left: 2rem;
   }
 }
 
