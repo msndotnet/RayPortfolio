@@ -189,6 +189,64 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 2560px){
+
+  #about-me-div {
+    width: 60%;
+}
+
+#customWidth60 {
+    width: 40%;
+}
+
+  #night_photo_001 {
+      left: 25rem;
+      bottom: 50rem;
+      width: 55%;
+  }
+
+  #night_photo_002 {
+        bottom: 0rem;
+        right: 2.5rem;
+        left: auto;
+        width: 45%;
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+  #night_photo_001 {
+      left: 46.55rem;
+      bottom: 12rem;
+  }
+
+  #night_photo_002 {
+      top: auto;
+      bottom: 1rem;
+      right: auto;
+      left: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+  #night_photo_001 {
+    left: 20rem;
+    bottom: auto;
+    top: 16rem;
+    width: 100%;
+}
+
+#night_photo_002 {
+    bottom: auto;
+    top: 33rem;
+    right: 20.1rem;
+    left: auto;
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   #about-me-div {
     flex-direction: column;
