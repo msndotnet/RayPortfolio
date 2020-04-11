@@ -35,3 +35,13 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function menuFunction() {
+  var x = document.getElementById("myNavigation");
+  if (x.className === "navigation") {
+    x.className += " responsive";
+  } else {
+    x.className = "navigation";
+  }
+}
