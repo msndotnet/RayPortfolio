@@ -27,17 +27,12 @@
 
 
 #offlineApproachSizeImageCenter{
-  margin-bottom: 1rem;
-    margin-top: 1rem;
   width: 100%;
   height: auto;
-  object-fit: scale-down;
-  position: relative;
-  align-self: flex-end;
+  object-fit: contain;
 }
 
 #finishedProductCenterImage{
-  margin-bottom: 5rem;
     margin-top: 1rem;
   width: 100%;
   height: auto;
@@ -90,12 +85,12 @@ align-self: center;
     z-index: 4;
 }
 
-#websiteMappingResize{
-  object-fit: scale-down;
-  width: 100%;
+#portrait5by4{
+  object-fit: contain;
+  width: 80%;
   height: auto;
- align-self: flex-start;
- margin-bottom: 2rem;
+  align-self: flex-start;
+  margin: 0 auto;
 }
 
 #websitePieChartResize{
@@ -121,8 +116,10 @@ padding: 0rem;
 
 #grayboxPhotoResize{
   object-fit: contain;
-  width: 95%;
+  width: 100%;
   height: auto;
-  align-self: flex-start;
- margin-bottom: 2rem;
 }
+
+
+
+

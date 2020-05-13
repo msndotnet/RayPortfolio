@@ -134,7 +134,7 @@ body {
 }
 
 .scroll-content {
-  margin-left: 15rem;
+  margin-left: 14rem;
   display: block;
 }
 
@@ -162,30 +162,63 @@ body {
 }
 
 .bottom-content-auto-height {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
   height: auto;
   width: 100%;
+  justify-content: center;
 }
 
-.left-column, .center-column, .right-column {
-  margin-top: 1.5rem;
-  padding-top: 2rem;
+.content-container{
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  justify-content: center;
 }
 
 .left-column {
   display: flex;
-  width: 38%;
+  width: 40%;
   line-height: 1.6rem;
   flex-direction: column;
-  padding-right: 2rem;
-  padding-left: 0.3rem;
   justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
 }
 
 .left-column h2 {
   font-size: 2rem;
   line-height: 2.5rem;
+}
+
+.center-column {
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: auto;
+  width: 4%;
+  z-index: 4;
+  padding-right: 1rem;
+}
+
+.right-column h2 {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 2rem;
 }
 
 .title-box p {
@@ -204,27 +237,7 @@ body {
   line-height: 6rem;
 }
 
-.center-column {
-  width: 52%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.right-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: auto;
-  width: 10%;
-  z-index: 4;
-}
-
-.right-column h2 {
-  margin: 0rem;
-  padding: 0rem;
-  font-size: 5rem;
-}
 
 /*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
 #back-to-top-button-reg {
@@ -270,6 +283,11 @@ body {
   font-weight: 800;
   font-size: 3.5rem;
   color: #E84A5F;
+
+  margin-block-start: 1.5rem;
+  margin-block-end: 1.5rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .bigTitle-centered h2 {
@@ -282,28 +300,37 @@ body {
 .center-paragraph {
   text-align: center;
   margin: auto;
-  width: 62%;
+  width: 60%;
   margin-top: 0rem;
   padding-top: 0rem;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+.center-paragraph-left {
+  text-align: left-align;
+  width: 50%;
+  margin-top: 0rem;
+  padding-top: 0rem;
+  font-weight: 500;
+  padding-left: 0rem;
 }
 
 .center-paragraph p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0rem;
+  margin-block-end: 1.5rem;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   font-family: 'source sans pro', sans-serif;
 }
 
 .center {
   display: block;
   object-fit: contain;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50rem;
+  width: 100%;
   height: auto;
 }
 
@@ -329,16 +356,27 @@ body {
 }
 
 .multi-content-column {
-  width: 45%;
-  max-width: 30rem;
+  width: 48%;
   line-height: 1.6rem;
   display: flex;
   flex-direction: column;
-  padding-right: 2rem;
-  padding-left: 0.3rem;
   /*background-color: #91c499;*/
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
+
+.single-paragraph-column{
+  width: 96%;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  /*background-color: #91c499;*/
+  justify-content: flex-start;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 
 #marginBottom5rem {
   margin-bottom: 5rem;
@@ -360,8 +398,8 @@ body {
   margin-top: 0rem;
 }
 
-#paragraphAdjustment3Rem {
-  padding-bottom: 3rem;
+#paragraphAdjustment4halfRem {
+  margin-top: 4.5rem;
 }
 
 #contentWidth70 {
@@ -375,6 +413,10 @@ body {
 
 #contentWidth50 {
   width: 50%;
+}
+
+#image-box-shadow{
+  box-shadow: 0.5px 0.5px 18px;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------  */
@@ -408,9 +450,15 @@ body {
 
   @media screen and (max-width: 1024px) {
     .graphic-title h2 {
-      font-size: 2.5rem;
-      line-height: 3rem;
+      font-size: 2rem;
+      line-height: 2.5rem;
     }
+
+    .title-box h2 {
+      color: #E84A5F;
+      font-size: 1.2rem;
+      line-height: 2.5rem;
+  }
   }
 
   @media screen and (max-width: 768px) {
@@ -547,10 +595,6 @@ body {
       font-size: 3rem;
     }
 
-    .center {
-      width: 80%;
-    }
-
     .multi-content-column {
       padding-left: 2rem;
     }
@@ -618,3 +662,4 @@ body {
       text-align: left;
     }
   }
+}
