@@ -87,10 +87,9 @@ align-self: center;
 
 #portrait5by4{
   object-fit: contain;
-  width: 80%;
+  width: 100%;
   height: auto;
   align-self: flex-start;
-  margin: 0 auto;
 }
 
 #websitePieChartResize{
@@ -122,4 +121,6 @@ padding: 0rem;
 
 
 
-
+#image-box-shadow{
+  box-shadow: 0.5px 0.5px 18px;
+}
