@@ -91,6 +91,10 @@
   align-self: flex-end;
 }
 
+#see-process-link {
+  padding-left: 10rem;
+  line-height: 2rem;
+}
 
 #see-process-link > a{
   font-family: 'Source Sans Pro', sans-serif;
@@ -100,7 +104,7 @@
 
 #see-process-link > a:hover{
   font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   color: #923464;
 }
 
@@ -143,18 +147,6 @@ align-self: center;
   width: 100%;
 }
 
-.title-box {
-  display: block;
-  justify-content: space-around;
-  margin-bottom: 1rem;
-}
-
-.title-box h2 {
-font-family: 'Source Sans Pro', sans-serif;
-  margin: 0rem;
-  color: #E84A5F;
-  font-weight: 600;
-}
 
 .home-page-image{
   margin-top: 2rem;
@@ -167,19 +159,25 @@ font-family: 'Source Sans Pro', sans-serif;
   object-fit: contain;
 }
 
+#marginsTenRem{
+  padding-left: 10rem;
+}
+
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------  */
 
 
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 768px) {
-  .title-box {
+  .headline2 {
     display: block;
     justify-content: space-around;
     margin-bottom: 1rem;
   }
 
-  .title-box h2 {
+  .headline2 h2 {
   font-family: 'Source Sans Pro', sans-serif;
     margin: 0rem;
     color: #E84A5F;
