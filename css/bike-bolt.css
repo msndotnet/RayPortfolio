@@ -128,13 +128,29 @@ align-self: center;
 }
 
 .title-image-container{
-  background: url(../img/bike-bolt-banner.jpg);      
-height: auto;
-width: 100%;
-background-repeat: no-repeat;
-height: 561px; /* You must set a specified height */
-background-position: center; /* Center the image */
-background-size: contain; /* Resize the background image to cover the entire container */
+position: relative;
+z-index: -1;
+}
+
+.title-image-container img{
+  width: 100%;
+    box-shadow: 0.5px 0.5px 18px;
+}
+
+.text-block-paragraph{
+  position: absolute;
+  bottom: 20px;
+  right: 2rem;
+  background-color: black;
+  color:white;
+  padding: 20px;
+  padding-right: 20px;
+  
+  line-height: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.15px;
 }
 
 
@@ -143,5 +159,4 @@ background-size: contain; /* Resize the background image to cover the entire con
   #wireframePhotoResize{
     width: 100%;
   }
-
 }
