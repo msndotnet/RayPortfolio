@@ -18,6 +18,9 @@ body {
   min-height: 100%;
 }
 
+img{
+
+}
 
 .scroll-content {
   display: block;
@@ -25,10 +28,9 @@ body {
 }
 
 .bodyWrapper {
-  max-width: 100%;
+  max-width: 1152px;
   margin: 0 auto;
 }
-
 
 
 /*https://marina-ferreira.github.io/tutorials/css/flexbox/*/
@@ -65,7 +67,7 @@ body {
   margin: 0.67em 0;
 }
 
-.top-content h1, h2 {
+.top-content h1, top-content h2 {
   margin: 0rem;
   padding: 0rem;
   margin-top: 0rem;
@@ -93,8 +95,6 @@ body {
 }
 
 .bottom-content-auto-height {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
   height: auto;
@@ -110,7 +110,38 @@ padding-left: 1.5rem;
 padding-right: 1.5rem;
 justify-content: center;
 flex-direction: column;
+line-height: 1.6rem;
+
+/*background-color: #91c499;*/
+justify-content: flex-start;
 }
+
+.two-of-four-column > ul{
+  padding-left:2rem;
+}
+
+.two-of-four-column > ul, li{
+  font-family: 'raleway', sans-serif;
+}
+
+.two-of-four-column h2{
+  line-height: 5rem;
+}
+
+.three-of-four-column{
+  display: flex;
+  width:33.33%;
+  height:auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6rem;
+  
+  /*background-color: #91c499;*/
+  justify-content: flex-start;
+  }
+
 
 .left-column {
   display: flex;
@@ -122,10 +153,23 @@ flex-direction: column;
   padding-right: 1rem;
 }
 
-.h2 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+
+
+h2 {
+    font-size: 65px;
+    font-kerning: 10rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+h4 {
+  margin-bottom: 1rem;
+  font-size: 37px;
+  font-kerning: 10rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 3rem;
+}
+
+
 
 .center-column {
   width: 56%;
@@ -165,12 +209,13 @@ font-family: 'Source Sans Pro', sans-serif;
   color: #4A0D67;
   font-weight: 300;
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 3rem;
 }
 
 .headline2 h3{
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 0rem;
+  margin-bottom: 1rem;
   color: #4A0D67;
   font-weight: 400;
   font-size: 1.5rem;
@@ -244,9 +289,29 @@ font-family: 'Source Sans Pro', sans-serif;
   color: #F5F5F7;
 }
 
-.bigTitle-centered {
+.bigTitle-centered h4, .bigTitle-centered h6 {
   display: block;
   text-align: center;
+  font-family: 'source sans pro', sans-serif;
+}
+
+h4{
+ font-size: 37px;
+ font-weight: 600;
+ letter-spacing: 0.25px;
+ margin-top: 1.5rem;
+ margin-bottom: 1.5rem;
+ font-family: 'source sans pro', sans-serif;
+ text-align: left;
+
+}
+
+h6{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;  
+  text-align: left;
   font-family: 'source sans pro', sans-serif;
 }
 
@@ -270,6 +335,7 @@ font-family: 'Source Sans Pro', sans-serif;
   padding-left: 5rem;
   padding-right: 5rem;
   font-family: 'source sans pro', sans-serif;
+  line-height: 1.8rem;
 }
 
 .center {
@@ -277,6 +343,8 @@ font-family: 'Source Sans Pro', sans-serif;
   object-fit: contain;
   width: 100%;
   height: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .center-column-paragraph {
@@ -300,31 +368,26 @@ font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: 0.5rem;
 }
 
-.multi-content-column {
-  width: 48%;
-  line-height: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  /*background-color: #91c499;*/
-  justify-content: flex-start;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
 
-.single-paragraph-column{
-  width: 96%;
-  line-height: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  /*background-color: #91c499;*/
-  justify-content: flex-start;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
 
+
+.single-paragraph-column p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.6rem;
+    font-size: 14px;
+    font-family: 'raleway', sans-serif;
+}
 
 #marginBottom5rem {
   margin-bottom: 5rem;
+}
+
+#marginBottom3rem {
+  margin-bottom: 3rem;
 }
 
 #marginTop5rem {
@@ -343,9 +406,6 @@ font-family: 'Source Sans Pro', sans-serif;
   margin-top: 0rem;
 }
 
-#paragraphAdjustment3Rem {
-  margin-bottom: 3rem;
-}
 
 #contentWidth70 {
   width: 70%;
@@ -614,10 +674,6 @@ width: 18rem;
     width: 60%;
   }
 
-  .bigTitle-centered h2 {
-    margin-top: 5rem;
-  }
-
   @media screen and (max-width: 1630px) {
     .graphic-title h2 {
       font-size: 3.5rem;
@@ -765,10 +821,6 @@ width: 18rem;
       height: auto;
     }
 
-    .bottom-content-auto-height {
-      width: 100%;
-      height: auto;
-    }
 
     .right-column h2 {
       font-size: 3rem;

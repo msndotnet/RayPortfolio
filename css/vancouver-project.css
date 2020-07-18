@@ -33,7 +33,6 @@
 }
 
 #finishedProductCenterImage{
-    margin-top: 1rem;
   width: 100%;
   height: auto;
   object-fit: scale-down;
@@ -69,12 +68,6 @@ align-self: center;
   color: #E84A5F;
 }
 
-#subheading{
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-kerning: 10rem;
-}
-
 
 #center-column-mod1{
     display: flex;
@@ -101,9 +94,6 @@ margin: 0rem;
 padding: 0rem;
 }
 
-#paragraphAdjustment{
-  padding-bottom:1.6rem;
-}
 
 #justifyContentFlexStart{
   justify-content: flex-start;
@@ -119,8 +109,8 @@ padding: 0rem;
   height: auto;
 }
 
-
-
 #image-box-shadow{
   box-shadow: 0.5px 0.5px 18px;
+  width: 100%;
+  object-fit: contain;
 }

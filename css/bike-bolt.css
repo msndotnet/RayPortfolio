@@ -35,6 +35,13 @@
   align-self: flex-end;
 }
 
+#portrait5by4{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  align-self: flex-start;
+}
+
 
 #see-process-link > a{
   font-family: 'Source Sans Pro', sans-serif;
@@ -63,10 +70,6 @@ align-self: center;
   color: #E84A5F;
 }
 
-#subheading{
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive*/
 .photo-grid-row {
