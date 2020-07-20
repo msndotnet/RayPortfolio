@@ -18,9 +18,6 @@ body {
   min-height: 100%;
 }
 
-img{
-
-}
 
 .scroll-content {
   display: block;
@@ -339,12 +336,10 @@ h6{
 }
 
 .center {
-  display: block;
   object-fit: contain;
+  height:auto;
   width: 100%;
-  height: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  justify-content: center;
 }
 
 .center-column-paragraph {
@@ -558,7 +553,7 @@ display:block;
 .navigation > ul > li > a:hover { color: black; }
 
 .navigation > ul > li a:hover,
-.navigation > ul > li:hover a {   background-color:  #4527A0; color: #F5F5F7; }
+.navigation > ul > li:hover a {   background-color:  #4527A0; color: #F5F5F7; line-height: 1.6rem;}
 
 .navigation li { position: relative; }
 
@@ -653,13 +648,42 @@ width: 18rem;
 
   position: absolute;
   bottom: 23px;
-
 }
 
 .social-media-buttons img {
   width: 2.5rem;
   height: 2.5rem;
 }
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width:100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'source sans pro', sans-serif;
+    font-size: 17px;
+    font-weight:normal;
+    letter-spacing: 0.15;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
 
 
 
